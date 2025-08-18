@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-white text-gray-900;
+}
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+.card {
+  @apply p-5 rounded-2xl border bg-white shadow-sm;
+}
+.btn {
+  @apply inline-flex items-center justify-center gap-2 px-4 py-2 rounded-xl;
+}
+.btn-primary {
+  @apply btn bg-teal-600 text-white hover:bg-teal-500;
+}
+.btn-secondary {
+  @apply btn bg-white border hover:bg-gray-50;
+}
+.input {
+  @apply px-3 py-2 border rounded-xl;
+}
+.text-muted {
+  @apply text-gray-600;
+}
